@@ -1,0 +1,24 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Git Code/FileContentIndex
+/.vs
+/AdoDotnetDAL/obj
+/AdoDotnetDAL/bin/Debug/net8.0
+/CommonDAL/bin/Debug/net8.0
+/CommonDAL/obj
+/EfDAL/bin/Debug/net8.0
+/EfDAL/obj
+/FactoryCustomer/bin/Debug/net8.0
+/FactoryCustomer/obj
+/FactoryDAL/bin/Debug/net8.0
+/FactoryDAL/obj
+/IDAL/bin/Debug/net8.0
+/IDAL/obj
+/InterfaceCustomer/bin/Debug/net8.0
+/InterfaceCustomer/obj
+/MiddleLayer/bin/Debug/net8.0
+/MiddleLayer/obj
+/ValidationAlgorithms/bin/Debug/net8.0
+/ValidationAlgorithms/obj
