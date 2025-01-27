@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CommonDAL\CommonDAL.csproj" />
+    <ProjectReference Include="..\FactoryCustomer\FactoryCustomer.csproj" />
+    <ProjectReference Include="..\IDAL\InterfaceDAL.csproj" />
+    <ProjectReference Include="..\InterfaceCustomer\InterfaceCustomer.csproj" />
+  </ItemGroup>
+
+</Project>
