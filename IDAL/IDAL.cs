@@ -6,6 +6,6 @@
         void Add(T obj);
         void Update(T obj);
         List<T> Search();
-        void Save(T obj);
+        void Save();
     }
 }

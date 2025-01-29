@@ -15,7 +15,7 @@ namespace CommonDAL
             anyTypes.Add(obj);
         }
 
-        public virtual void Save(T obj)
+        public virtual void Save()
         {
             throw new NotImplementedException();
         }

@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\IDAL\InterfaceDAL.csproj" />
     <ProjectReference Include="..\InterfaceCustomer\InterfaceCustomer.csproj" />
+    <ProjectReference Include="..\MiddleLayer\MiddleLayer.csproj" />
   </ItemGroup>
 
 </Project>

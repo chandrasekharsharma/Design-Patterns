@@ -1,6 +1,7 @@
 ﻿using InterfaceCustomer;
 using InterfaceDAL;
 using System.Data.Entity;
+using MiddleLayer;
 
 namespace EfDAL
 {
@@ -14,7 +15,7 @@ namespace EfDAL
             Set<T>().Add(obj);
         }
 
-        public void Save(T obj)
+        public void Save()
         {
             SaveChanges();
         }
@@ -34,10 +35,10 @@ namespace EfDAL
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CustomerBase>().ToTable("tblCustomer");
-            //modelBuilder.Entity<CustomerBase>()
-            //    .Map<Customer>(x => x.Requires("CustomerType").HasValue("Customer"))
-            //    .Map<Lead>(x => x.Requires("CustomerType").HasValue("Lead"));
-            //modelBuilder.Entity<CustomerBase>().Ignore(x => x.CustomerType);
+            modelBuilder.Entity<CustomerBase>()
+                .Map<Customer>(x => x.Requires("CustomerType").HasValue("Customer"))
+                .Map<Lead>(x => x.Requires("CustomerType").HasValue("Lead"));
+            modelBuilder.Entity<CustomerBase>().Ignore(x => x.CustomerType);
         }
     }
 }
