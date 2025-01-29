@@ -41,7 +41,7 @@ namespace AdoDotnetDAL
         {
             con.Close();
         }
-        public override void Save(T obj)
+        public override void Save()
         {
             foreach (T anyType in anyTypes)
             {

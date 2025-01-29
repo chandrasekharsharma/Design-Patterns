@@ -22,3 +22,6 @@
 /MiddleLayer/obj
 /ValidationAlgorithms/bin/Debug/net8.0
 /ValidationAlgorithms/obj
+/WinFormsApp1/.vs
+/WinFormsApp1/bin/Debug/net8.0-windows
+/WinFormsApp1/obj
